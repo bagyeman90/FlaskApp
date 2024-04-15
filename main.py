@@ -1,10 +1,14 @@
-from flask import Flask
-
 """ 
 This is a docstring for the main module.
 """
+
+# Import the necessary modules
+from flask import Flask
+
+# Create the flask application now
 app = Flask(__name__)
 
+# Definf the routes for the application
 @app.route('/')
 @app.route('/index')
 def index():
