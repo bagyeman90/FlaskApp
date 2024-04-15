@@ -11,7 +11,6 @@ app = Flask(__name__)
 def index():
     """
     This is a docstring for the index function.
-    It describes what the function does,
-    its parameters (if any), and its return value (if any).
+    Its parameters (if any), and its return value (if any).
     """
     return  '<p>Hello, World!</p>'
