@@ -2,7 +2,6 @@ from flask import Flask
 
 """ 
 This is a docstring for the main module.
-It describes what the module does.
 """
 app = Flask(__name__)
 
